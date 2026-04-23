@@ -1,0 +1,23 @@
+{
+  "name": "e-commnerce-guardian",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bomen-ulrich/e-commerce-guardian.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bomen-ulrich/e-commerce-guardian/issues"
+  },
+  "homepage": "https://github.com/bomen-ulrich/e-commerce-guardian#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}

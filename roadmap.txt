@@ -1,0 +1,28 @@
+On 23/04/2026
+- I created the project directory locally
+- I pushed it on my GitHub Account
+- On GitHub Account, using UI, I created a new project name "The E-Commerce Guardian" and linked it to the created repo
+- I am trying to figure out how kanban works and how to start with this project.
+- I installed Plawrigth
+	>> sudo apt update
+	>> sudo apt install -y nodejs npm
+	In the project directory:
+		>> npm init playwright@latest
+		>> npx playwright install --with-deps
+
+- The structure :
+	tests/          #Mes fichiers de Tests (.spec.ts)
+           e2e/		#Mes scenarios complets (achat.spec.ts)
+	   sanity/     #Test rapides de verification
+	pages/		#Tes Page Objects (classes TS)
+	   BasePage.ts	#Fonctions communes a toutes les pages
+	   HomePage.ts  #Interactions avec la page d'accueil
+	   ProductPage.ts #Interactions avec les produits
+	   CartPage.ts	#Logique de panier
+	data/		#Donnes de test
+	utils/		#Fonctions d'aide
+	playwright.config.ts #configuration globale
+	package.json
+ 
+- 
+
